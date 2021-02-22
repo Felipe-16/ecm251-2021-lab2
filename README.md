@@ -2,7 +2,7 @@
 Repositório criado para a disciplina Linguagens 1
 
 # Desenvolvedor:
-## Felipe Ros Pegini
+- Felipe Ros Pegini
 
 # Linguagens e frameworks:
 - Java
