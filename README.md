@@ -7,5 +7,5 @@ Repositório criado para a disciplina Linguagens I.
 # Linguagens e frameworks:
 - Java
 - Python
-- C
+- HTML e CSS
 - Dart 
