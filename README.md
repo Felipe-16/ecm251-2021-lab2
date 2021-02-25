@@ -9,3 +9,6 @@ Repositório criado para a disciplina Linguagens I.
 - Python
 - HTML e CSS
 - Dart 
+- Flutter
+- Android Studio
+
