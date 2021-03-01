@@ -1,7 +1,6 @@
 package pegini.ros.felipe;
 
 public class Basico01 {
-
     public static void main(String[] args) {
         int hp;
         boolean megaEvolui;
@@ -20,4 +19,5 @@ public class Basico01 {
         System.out.println("atk:" + atk + "\nsatk:" + satk);
 
     }
+
 }

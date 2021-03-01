@@ -7,7 +7,7 @@ public class Basico03 {
     public static void main(String[] args) {
         int limite = 10;
         int contador;
-        for(contador = 0; contador < limite; contador++){
+        for (contador = 0; contador < limite; contador++) {
             System.out.println("Contador:" + contador);
         }
 
@@ -16,7 +16,7 @@ public class Basico03 {
         Random sorteador = new Random();
         int chute = sorteador.nextInt(999999);
         int tentativas = 0;
-        while(chute != senha){
+        while (chute != senha) {
             System.out.println("Tentativa:" + tentativas);
             System.out.println("Chute:" + chute);
             chute = sorteador.nextInt(999999);
