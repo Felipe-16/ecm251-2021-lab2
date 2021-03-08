@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed8ea2f-a507-4ded-8fab-1c22a0696366" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aula02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/aula02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/out/production/aula02/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/src/pegini/ros/felipe/Basico01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/src/pegini/ros/felipe/Basico02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/src/pegini/ros/felipe/Basico03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aula02/src/pegini/ros/felipe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/src/pegini/ros/felipe/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
