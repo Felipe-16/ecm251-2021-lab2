@@ -21,8 +21,42 @@ public class Sistema {
                 System.out.println("Obrigado por ter utilizado o sistema!");
                 this.executarSistema = false;
                 break;
+            case 1:
+                System.out.println("Saldo: R$" + this.conta.getSaldo());
+                break;
+            case 2:
+                System.out.println("Informe um valor pra depositar");
+                double valorParaDepositar = scanner.nextDouble();
+                this.conta.depositar(valorParaDepositar);
+                System.out.println("Operação realizada com sucesso!");
+                break;
             default:
                 System.out.println("opçao ainda nao implementada");
+                break;
+            case 3:
+                System.out.println("Informe o valor pra sacar:");
+                double valorParaSacar = scanner.nextDouble();
+                if (this.conta.sacar(valorParaSacar)){
+                    System.out.println("Operação realizada com Sucesso!");
+                }else{
+                    System.out.println("Algo de errado aconteceu: Saldo");
+                }
+                break;
+            case 5:
+                System.out.println("Nome do Titulo a pagar:");
+                String nomeTitulo = scanner.next();
+                System.out.println("Valor do titulo:");
+                double valorTitulo = scanner.nextDouble();
+                System.out.println("valor do juros por dia:");
+                double valorJurosPorDia = scanner.nextDouble();
+                System.out.println("Informe a data de vencimento (aaaa-mm-dd):");
+                String dataVencimentoTitulo = scanner.next();
+                Titulo titulo = new Titulo(valorTitulo, nomeTitulo, valorJurosPorDia, dataVencimentoTitulo);
+                if (this.conta.sacar(titulo.getValorPagamento())){
+                System.out.println("Operação realizada com sucesso!!");
+                }else{
+                    System.out.println("Não foi possivel realizar a operação");
+                }
                 break;
         }
     }
