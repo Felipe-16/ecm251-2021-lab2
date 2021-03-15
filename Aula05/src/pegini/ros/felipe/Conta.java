@@ -2,16 +2,23 @@ package pegini.ros.felipe;
 
 public class Conta {
 
-    Cliente cliente = new Cliente();
-    int numero;
-    double saldo;
+    private Cliente cliente;
+    private int numero;
+    private double saldo;
 
+    // Métodos
 
-    void visualizarSaldo () {
-        System.out.println("Valor do saldo: " +this.saldo);
+    public Conta(String cliente, int numero, double saldo) {
+        this.cliente = new Cliente(cliente);
+        this.numero = numero;
+        this.saldo = saldo;
     }
 
-    boolean sacar (double valor) {
+    public double getSaldo () {
+        return this.saldo;
+    }
+
+    public boolean sacar (double valor) {
         if (this.saldo >= valor) {
             this.saldo -= valor;
             return true;
@@ -19,11 +26,11 @@ public class Conta {
         return false;
     }
 
-    void depositar (double valor) {
+    public void depositar (double valor) {
         this.saldo += valor;
     }
 
-    boolean transferirDinheiro (Conta destino, double valor) {
+    public boolean transferirDinheiro (Conta destino, double valor) {
         if(this.sacar(valor)){
             destino.depositar(valor);
             return true;

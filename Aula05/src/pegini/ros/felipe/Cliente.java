@@ -1,8 +1,13 @@
 package pegini.ros.felipe;
 
 public class Cliente {
-    String titular;
-    String cpf;
+    private String titular;
+
+    public Cliente(String titular) {
+        this.titular = titular;
+    }
+
+    private String cpf;
 
     @Override
     public String toString() {
