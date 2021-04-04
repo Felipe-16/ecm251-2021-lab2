@@ -14,15 +14,15 @@ public class Transacao {
     }
 
     // Gerando a função Qr
-    public String gerarQR(Usuarios account, double value){
+    public String gerarQR(Usuarios conta, double value){
 
-        int transactionNumber = getRandomNumberInRange(1000,9999);
-        return account.getIdConta() + "; " + account.getNome() + "; " + value + "; " + transactionNumber;
+        int numeroTransacao = getRandomNumberInRange(1000,9999);
+        return conta.getIdConta() + "; " + conta.getNome() + "; " + value + "; " + numeroTransacao;
     }
 
     // Criando uma função para efetuar transferencia
     public void transferencia( Usuarios origem,Usuarios destino, String Qr){
-        // Auxilio do Pedro Dominichelli Fabris para a criação da string array
+        // Auxilio do Pedro Henrique Ferreira Dominichelli Fabris para a criação da string array
         String[] array = new String[4];
         array = Qr.split(";");
         double valor =  Double.parseDouble(array[2]);

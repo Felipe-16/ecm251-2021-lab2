@@ -5,7 +5,7 @@ package pegini.ros.felipe;
 
 
 // Criando a classe usuarios herdando da classe mae Conta
-// Pedro Dominichelli Fabris me explicou o porque de precisar herdar da classe conta
+// Pedro Henrique Ferreira Dominichelli Fabris me explicou o porque de precisar herdar da classe conta
 public class Usuarios extends Conta {
     // Atributos do usuarios
     private String nome;

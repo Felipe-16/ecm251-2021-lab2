@@ -13,24 +13,24 @@ public class Main {
         Usuarios c1 = new Usuarios();
         Usuarios c2 = new Usuarios();
         Usuarios c3 = new Usuarios();
-        Scanner nomeUser = new Scanner(System.in);
+        Scanner nomeUsuario = new Scanner(System.in);
 
         // Scanneando os nomes dos usuarios
         System.out.println("Coloque o nome do Usuario 1:");
-         String nome1 = nomeUser.next();
+         String nome1 = nomeUsuario.next();
 
         System.out.println("Coloque o nome do Usuario 2:");
-         String nome2 = nomeUser.next();
+         String nome2 = nomeUsuario.next();
 
         System.out.println("Coloque o nome do Usuario 3:");
-         String nome3 = nomeUser.next();
+         String nome3 = nomeUsuario.next();
 
          // Criando as contas dos usuarios
         c1.novoUsuario(nome1,"192","@gmail.com", 1111, 1000);
         c2.novoUsuario(nome2, "193", "@gmail.com",2222,250);
         c3.novoUsuario(nome3, "194", "@gmail.com", 3333, 3000);
 
-        // Printando sistema inicial 
+        // Printando sistema inicial
         System.out.println("Estado inicial:");
 
         System.out.println("Nome da conta 1: "+ c1.getNome() + " - Saldo: " + c1.getSaldo());
