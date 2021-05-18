@@ -18,7 +18,7 @@ public class ValidadorCPF {
         cpf = cpf.replace(".","");
         cpf = cpf.replace("-","");
         //Valida se o tamanho do CPF está de acordo com o esperado
-        if(cpf.length() != TAMANHO_CPF)
+        if(cpf.length() != 11)
             return false;
 
         //Verifica se o CPF está dentro dos inválidos conhecidos

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fa82d1f-3f2b-4bae-9af1-ff4704c73866" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pegini/ros/felipe/D4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pegini/ros/felipe/D4TestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pegini/ros/felipe/Dado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pegini/ros/felipe/DadoTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividade1/out/production/atividade1/pegini/ros/felipe/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../atividade1/out/production/atividade1/pegini/ros/felipe/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividade1/out/production/atividade1/pegini/ros/felipe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../atividade1/out/production/atividade1/pegini/ros/felipe/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atividade1/out/production/atividade1/pegini/ros/felipe/Transacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../atividade1/out/production/atividade1/pegini/ros/felipe/Transacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula05-teoria/out/production/aula05-teoria/pegini/ros/felipe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula05-teoria/out/production/aula05-teoria/pegini/ros/felipe/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula05-teoria/out/production/aula05-teoria/pegini/ros/felipe/ValidadorCPF.class" beforeDir="false" afterPath="$PROJECT_DIR$/../aula05-teoria/out/production/aula05-teoria/pegini/ros/felipe/ValidadorCPF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula05-teoria/src/pegini/ros/felipe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula05-teoria/src/pegini/ros/felipe/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula05-teoria/src/pegini/ros/felipe/ValidadorCPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula05-teoria/src/pegini/ros/felipe/ValidadorCPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/jogo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Jogada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Jogador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Papel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Pedra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Resultado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Sistema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Tesoura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Jogada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Jogador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Papel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Pedra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Resultado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Sistema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Tesoura.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1sgUmWSSWcsecApVgfPsVFuZ1on" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.visible" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.D4TestDrive">
+    <configuration name="D4TestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pegini.ros.felipe.D4TestDrive" />
+      <module name="aula06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pegini.ros.felipe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DadoTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pegini.ros.felipe.DadoTestDrive" />
+      <module name="aula06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pegini.ros.felipe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pegini.ros.felipe.Main" />
+      <module name="aula06" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.DadoTestDrive" />
+      <item itemvalue="Application.D4TestDrive" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.D4TestDrive" />
+        <item itemvalue="Application.DadoTestDrive" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fa82d1f-3f2b-4bae-9af1-ff4704c73866" name="Default Changelist" comment="" />
+      <created>1621293885501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621293885501</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621294283905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621294283905" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621294283904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621294283904" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621294283904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621294283904" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621294283904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621294283904" />
+  </component>
+</project>
