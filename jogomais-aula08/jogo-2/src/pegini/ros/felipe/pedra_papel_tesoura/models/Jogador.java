@@ -1,4 +1,4 @@
-package pegini.ros.felipe;
+package pegini.ros.felipe.pedra_papel_tesoura.models;
 
 public class Jogador {
     private String nome;

@@ -19,39 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67d08e4e-d5c1-4456-9a64-5f3c1711c1a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pegini/ros/felipe/D4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pegini/ros/felipe/D4TestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pegini/ros/felipe/Dado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pegini/ros/felipe/DadoTestDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo-aula07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jogo-aula07/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/jogo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Jogada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Jogador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Papel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Pedra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Resultado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Sistema.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/out/production/jogo/pegini/ros/felipe/Tesoura.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Jogada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Jogador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Papel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Pedra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Resultado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Sistema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogo/src/pegini/ros/felipe/Tesoura.java" beforeDir="false" />
-    </list>
+    <list default="true" id="67d08e4e-d5c1-4456-9a64-5f3c1711c1a5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jogomais-aula08" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -111,5 +80,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1621297731112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621297731112" />
   </component>
 </project>

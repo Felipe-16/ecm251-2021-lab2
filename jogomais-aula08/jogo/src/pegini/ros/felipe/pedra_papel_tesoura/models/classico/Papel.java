@@ -1,4 +1,6 @@
-package pegini.ros.felipe;
+package pegini.ros.felipe.pedra_papel_tesoura.models.classico;
+
+import pegini.ros.felipe.pedra_papel_tesoura.models.Jogada;
 
 public class Papel extends Jogada {
 

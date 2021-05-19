@@ -1,4 +1,11 @@
-package pegini.ros.felipe;
+package pegini.ros.felipe.pedra_papel_tesoura.controladores;
+
+import pegini.ros.felipe.pedra_papel_tesoura.models.*;
+import pegini.ros.felipe.pedra_papel_tesoura.models.bazinga.Lagarto;
+import pegini.ros.felipe.pedra_papel_tesoura.models.bazinga.Spoke;
+import pegini.ros.felipe.pedra_papel_tesoura.models.classico.Papel;
+import pegini.ros.felipe.pedra_papel_tesoura.models.classico.Pedra;
+import pegini.ros.felipe.pedra_papel_tesoura.models.classico.Tesoura;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -7,7 +14,7 @@ public class Sistema {
     private Jogador jogador1;
     private Jogador jogador2;
     private Scanner scanner;
-    private final Jogada [] jogadas = new Jogada[]{new Pedra(), new Papel(), new Tesoura()};
+    private final Jogada[] jogadas = new Jogada[]{new Pedra(), new Papel(), new Tesoura(), new Spoke(),new Lagarto()};
 
     public Sistema() {
         scanner = new Scanner(System.in);
@@ -22,7 +29,7 @@ public class Sistema {
     }
     public void run(){
         while(true){
-            System.out.println("Player 1:" +jogador1 + " vs player2" +jogador2);
+            System.out.println("Player 1:" +jogador1 + " vs player2:" +jogador2);
             jogador1.setJogada(selecionaJogada());
             jogador2.setJogada(sorteiaJogada());
             System.out.println("Jogada Jogador 1:" + jogador1.getJogada());
@@ -32,7 +39,10 @@ public class Sistema {
     }
 
     private Jogada selecionaJogada() {
-        System.out.println("Escolha: 0- Pedra\n1 - Papel\n2- Tesoura");
+        System.out.println("Escolha:");
+        for (int i = 0; i < jogadas.length; i++) {
+            System.out.println(""+i+" - "+jogadas[i]);
+        }
         int escolha = scanner.nextInt();
         return jogadas[escolha];
     }

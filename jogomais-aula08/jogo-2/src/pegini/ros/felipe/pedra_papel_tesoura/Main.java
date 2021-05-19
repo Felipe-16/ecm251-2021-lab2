@@ -1,4 +1,6 @@
-package pegini.ros.felipe;
+package pegini.ros.felipe.pedra_papel_tesoura;
+
+import pegini.ros.felipe.pedra_papel_tesoura.controladores.Sistema;
 
 public class Main {
 
