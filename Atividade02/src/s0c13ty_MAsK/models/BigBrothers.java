@@ -10,7 +10,17 @@ public class BigBrothers extends Membro{
     /**
      * Metodo que cadastra os membros com o seu papel dentro do grupo
      */
-    void CadastroMembros () {
+    final void cadastroMembros () {
+
+    }
+
+    @Override
+    public String postarMensagem() {
+        return null;
+    }
+
+    @Override
+    public void apresentacao() {
 
     }
 }

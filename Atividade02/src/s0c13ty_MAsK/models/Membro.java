@@ -8,9 +8,19 @@ import s0c13ty_MAsK.interfaces.PostarMensagem;
  * com o nome, email e ID do membro
  */
 public abstract class Membro implements Apresentacao, PostarMensagem {
-    String nome;
-    String email;
-    int ID;
+    private String nome;
+    private String email;
+    private int ID;
 
+    public String getNome() {
+        return nome;
+    }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public int getID() {
+        return ID;
+    }
 }
