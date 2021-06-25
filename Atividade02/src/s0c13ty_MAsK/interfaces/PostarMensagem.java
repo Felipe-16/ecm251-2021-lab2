@@ -5,6 +5,7 @@ import s0c13ty_MAsK.enumerates.Horario;
 /**
  * Interface que os membros postam as suas mensagens
  */
+
 public interface PostarMensagem {
     public String postarMensagem(Horario horario);
 }

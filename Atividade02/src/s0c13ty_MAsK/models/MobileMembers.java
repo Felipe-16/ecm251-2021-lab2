@@ -5,6 +5,7 @@ import s0c13ty_MAsK.enumerates.Horario;
 /**
  * Classe dos membros que utilizam o celular
  */
+
 public class MobileMembers extends Membro{
     Horario n = Horario.NORMAL;
     Horario e = Horario.EXTRA;
