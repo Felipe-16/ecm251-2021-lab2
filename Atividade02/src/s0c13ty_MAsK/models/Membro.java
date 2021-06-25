@@ -12,6 +12,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
     private String email;
     private int ID;
 
+
     public String getNome() {
         return nome;
     }
@@ -22,5 +23,17 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     public int getID() {
         return ID;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
     }
 }

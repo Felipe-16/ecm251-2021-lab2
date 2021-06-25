@@ -10,6 +10,7 @@ public class BigBrothers extends Membro{
     /**
      * Metodo que cadastra os membros com o seu papel dentro do grupo
      */
+    // Quando cadastrados, os script guys devem mandar uma mensagem de boas vindas
     final void cadastroMembros () {
 
     }
@@ -20,7 +21,8 @@ public class BigBrothers extends Membro{
     }
 
     @Override
-    public void apresentacao() {
+    public String apresentacao() {
 
+        return null;
     }
 }

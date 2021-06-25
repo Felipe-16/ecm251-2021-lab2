@@ -12,7 +12,8 @@ public class HeavyLifters extends Membro {
     }
 
     @Override
-    public void apresentacao() {
+    public String apresentacao() {
 
+        return null;
     }
 }
