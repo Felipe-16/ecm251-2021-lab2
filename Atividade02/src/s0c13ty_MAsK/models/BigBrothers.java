@@ -16,8 +16,16 @@ public class BigBrothers extends Membro{
     }
 
     @Override
-    public String postarMensagem() {
-        return null;
+    public String postarMensagem(Horario horario) {
+
+        String msg1 = "“Sempre ajudando as pessoas membros ou não S2!";
+        String msg2 = "...";
+        if (horario == Horario.NORMAL){
+            return msg1;
+        }
+        else{
+            return msg2;
+        }
     }
 
     @Override

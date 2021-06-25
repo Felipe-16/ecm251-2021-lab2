@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed8ea2f-a507-4ded-8fab-1c22a0696366" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/aula02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aula02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/BigBrothers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/BigBrothers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/ScriptGuys.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/ScriptGuys.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1p9mqjQFOeLdHU4Syd9SR0FPdOv" />
   <component name="ProjectViewState">
@@ -50,6 +62,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -121,6 +134,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -146,35 +160,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2360" y="94" key="#Project_Structure" timestamp="1614609424181">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2360" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614609424181" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614616246716">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614616246716" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614609569713" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1614609425994">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614609425994" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1614609425994">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614609425994" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1614609425994">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614609425994" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1614609425994">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614609425994" />
-    <state x="342" y="140" key="new project wizard" timestamp="1614616253217">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614616253217" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

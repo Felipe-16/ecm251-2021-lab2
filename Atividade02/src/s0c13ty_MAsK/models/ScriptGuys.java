@@ -12,7 +12,15 @@ public class ScriptGuys extends Membro{
     }
 
     @Override
-    public String postarMensagem() {
-        return null;
+    public String postarMensagem(Horario horario) {
+
+        String msg1 = "Prazer em ajudar novos amigos de código!";
+        String msg2 = "QU3Ro_S3us_r3curs0s.py";
+        if (horario == Horario.NORMAL){
+            return msg1;
+        }
+        else{
+            return msg2;
+        }
     }
 }
