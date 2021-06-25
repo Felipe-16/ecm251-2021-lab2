@@ -1,9 +1,9 @@
 package s0c13ty_MAsK.models;
 
-
 /**
  * Classe que trabalham com estacoes pesadas
  */
+
 public class HeavyLifters extends Membro {
 
     @Override

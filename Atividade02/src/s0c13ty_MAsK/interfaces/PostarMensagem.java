@@ -1,6 +1,5 @@
 package s0c13ty_MAsK.interfaces;
 
-
 import s0c13ty_MAsK.enumerates.Horario;
 
 /**

@@ -9,7 +9,6 @@ public class MobileMembers extends Membro{
     Horario n = Horario.NORMAL;
     Horario e = Horario.EXTRA;
 
-
     @Override
     public String apresentacao() {
 
