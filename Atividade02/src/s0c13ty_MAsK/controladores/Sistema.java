@@ -4,26 +4,28 @@ import s0c13ty_MAsK.enumerates.Horario;
 import s0c13ty_MAsK.enumerates.TiposDeMembro;
 import s0c13ty_MAsK.models.*;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
  * Classe onde sera executado a implementacao
  */
 public class Sistema {
+    private static ArrayList<Membro> listaUsuario = new ArrayList<>();
     public static void main(String[] args) {
-    // registrar membros
+    // registrar membros check
     // informar quando perguntado o horario check
     // postar msg para todos os membros
     // chamada de relatorio -> apresentacao
         Horario horarioatual = Horario.NORMAL;
         Scanner scanner= new Scanner(System.in);
-        boolean sistema = true;
+        boolean iniciar = true;
 
         System.out.println("Bem vindo ao sistema da MAsK_s0c13ty");
         System.out.println("Seu horário atual é: " + horarioatual);
         System.out.println("=====================================");
 
-        while(sistema) {
+        while(iniciar) {
 
             System.out.println("Qual opção deseja executar?\n" +
                     "1 - Mudar seu horario atual \n" +
@@ -49,28 +51,33 @@ public class Sistema {
                     break;
 
                 case 2:
-                    Membro membro;
-                    sistema.cadastroMembro();
+                    cadastroMembros();
                     break;
 
                 case 3:
                     System.out.println("Seu horario é: " + horarioatual);
                     break;
 
-                case 4:
-                    Membro membro = removerMembro();
-                    System.out.println("Membro removido!");
-                    break;
+//                case 4:
+//                    Membro membro = removerMembro();
+//                    System.out.println("Membro removido!");
+//                    break;
 
                 case 5:
-                    membro.postarMensagem();
+                    for (Membro membro : listaUsuario ) {
+                        membro.postarMensagem(horarioatual);
+                    }
                     break;
 
                 case 6:
-                    membro.apresentacao();
+                    for (Membro membro: listaUsuario) {
+                        membro.apresentacao();
+                    }
+                    break;
+
 
                 case 7:
-                    sistema = false;
+                    iniciar = false;
                     System.out.println("===============\n" +
                             "0br1g4d0 por usar o sistema\n" +
                             "Finalizando o sistema! bons codigos");
@@ -84,7 +91,7 @@ public class Sistema {
     /**
      * Metodo que cadastra os membros com o seu papel dentro do grupo
      */
-    public Membro cadastroMembros () {
+    public static Membro cadastroMembros () {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Deseja adicionar um novo membro?\n" +
@@ -113,15 +120,15 @@ public class Sistema {
 
             switch (add) {
                 case 1:
-                    return new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members);
+                    listaUsuario.add(new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members));
 
                 case 2:
-                    return new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters);
+                    listaUsuario.add(new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters));
 
                 case 3:
-                    return new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys);
+                    listaUsuario.add(new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys));
                 case 4:
-                    return new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers);
+                    listaUsuario.add(new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers));
             }
 
             System.out.println("Voce deseja cadastrar outro membro?\n" +
