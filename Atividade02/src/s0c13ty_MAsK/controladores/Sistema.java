@@ -25,6 +25,8 @@ public class Sistema {
         c3.postarMensagem(Horario.EXTRA);
         c4.apresentacao();
         c4.postarMensagem(Horario.EXTRA);
+
+        c4.cadastroMembros();
     }
     // registrar membros
     // informar quando perguntado o horario
