@@ -26,7 +26,6 @@ public class BigBrothers extends Membro{
     /**
      * Metodo que cadastra os membros com o seu papel dentro do grupo
      */
-    // Quando cadastrados, os script guys devem mandar uma mensagem de boas vindas
     public void cadastroMembros () {
         Scanner scanner = new Scanner(System.in);
 
@@ -36,52 +35,53 @@ public class BigBrothers extends Membro{
 
         int resposta = Integer.parseInt(scanner.next());
 
-        if(resposta == 1){
+        while (resposta == 1) {
 
-            System.out.println("Que tipo de membro gostaria de adicionar?\n" +
-                    "1 - Mobile Members\n" +
-                    "2 - Heavy Lifters\n" +
-                    "3 - Script Guys \n" +
-                    "4 - Big Brothers");
-            int add = Integer.parseInt(scanner.next());
+                System.out.println("Que tipo de membro gostaria de adicionar?\n" +
+                        "1 - Mobile Members\n" +
+                        "2 - Heavy Lifters\n" +
+                        "3 - Script Guys \n" +
+                        "4 - Big Brothers");
+                int add = Integer.parseInt(scanner.next());
 
-            System.out.println("Qual o nome do membro");
-            String nome = scanner.next();
+                System.out.println("Qual o nome do membro");
+                String nome = scanner.next();
 
-            System.out.println("Qual o email?");
-            String email = scanner.next();
+                System.out.println("Qual o email?");
+                String email = scanner.next();
 
-            System.out.println("Qual o ID?");
-            int ID = Integer.parseInt(scanner.next());
+                System.out.println("Qual o ID?");
+                int ID = Integer.parseInt(scanner.next());
 
-            switch (add){
-                case 1:
+                switch (add) {
+                    case 1:
 
-                    MobileMembers novoMembro = new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members);
-                    System.out.println(novoMembro.toString());
-                    break;
+                        MobileMembers novoMembro = new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members);
+                        System.out.println(novoMembro.toString());
+                        break;
 
-                case 2:
+                    case 2:
 
-                    HeavyLifters novoMembro2 = new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters);
-                    System.out.println(novoMembro2.toString());
-                    break;
+                        HeavyLifters novoMembro2 = new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters);
+                        System.out.println(novoMembro2.toString());
+                        break;
 
-                case 3:
+                    case 3:
 
-                    ScriptGuys novoMembro3 = new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys);
-                    System.out.println(novoMembro3.toString());
-                    break;
-                case 4:
+                        ScriptGuys novoMembro3 = new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys);
+                        System.out.println(novoMembro3.toString());
+                        break;
+                    case 4:
 
-                    BigBrothers novoMembro4 = new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers);
-                    System.out.println(novoMembro4.toString());
-                    break;
-            }
+                        BigBrothers novoMembro4 = new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers);
+                        System.out.println(novoMembro4.toString());
+                        break;
+                }
 
-        }
-        else{
-            System.out.println("cadastro interrompido!");
+            System.out.println("Voce deseja cadastrar outro membro?\n" +
+                    "1 - Sim \n" +
+                    "2 - Nao");
+            resposta = Integer.parseInt(scanner.next());
         }
     }
 
