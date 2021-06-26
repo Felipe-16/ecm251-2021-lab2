@@ -55,25 +55,25 @@ public class BigBrothers extends Membro{
 
                 switch (add) {
                     case 1:
-                        MobileMembers novoMembro = new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members);
-                        System.out.println(novoMembro.toString());
+                        MobileMembers novoMobile = new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members);
+                        System.out.println(novoMobile.toString());
                         break;
 
                     case 2:
 
-                        HeavyLifters novoMembro2 = new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters);
-                        System.out.println(novoMembro2.toString());
+                        HeavyLifters novoHeavyLifters = new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters);
+                        System.out.println(novoHeavyLifters.toString());
                         break;
 
                     case 3:
 
-                        ScriptGuys novoMembro3 = new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys);
-                        System.out.println(novoMembro3.toString());
+                        ScriptGuys novoScriptGuy = new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys);
+                        System.out.println(novoScriptGuy.toString());
                         break;
                     case 4:
 
-                        BigBrothers novoMembro4 = new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers);
-                        System.out.println(novoMembro4.toString());
+                        BigBrothers novoBigBrothers = new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers);
+                        System.out.println(novoBigBrothers.toString());
                         break;
                 }
 

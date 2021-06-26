@@ -20,7 +20,7 @@ public class Sistema {
     // postar msg para todos os membros
     // chamada de relatorio -> apresentacao
         Horario horarioatual = Horario.NORMAL;
-        Scanner scanner;
+        Scanner scanner= new Scanner(System.in);
 
         BigBrothers c4 = new BigBrothers("Daniel", "danigatinho@gmail.com",5578, TiposDeMembro.Big_Brothers);
 
