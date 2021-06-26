@@ -55,7 +55,6 @@ public class BigBrothers extends Membro{
 
                 switch (add) {
                     case 1:
-
                         MobileMembers novoMembro = new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members);
                         System.out.println(novoMembro.toString());
                         break;
@@ -97,15 +96,15 @@ public class BigBrothers extends Membro{
 
     /**
      * Método que retorna a mensagem do membro
-     * @param horario
+     * @param horarioAtual
      * @return a mensagem
      */
     @Override
-    public void postarMensagem(Horario horario) {
+    public void postarMensagem(Horario horarioAtual) {
 
         String msg1 = "“Sempre ajudando as pessoas membros ou não S2!";
         String msg2 = "...";
-            if (horario == Horario.NORMAL){
+            if (horarioAtual == Horario.NORMAL){
                 System.out.println(msg1);
             }
             else{

@@ -7,6 +7,8 @@ import s0c13ty_MAsK.models.HeavyLifters;
 import s0c13ty_MAsK.models.MobileMembers;
 import s0c13ty_MAsK.models.ScriptGuys;
 
+import java.util.Scanner;
+
 /**
  * Classe onde sera executado a implementacao
  */
@@ -17,14 +19,15 @@ public class Sistema {
     // informar quando perguntado o horario
     // postar msg para todos os membros
     // chamada de relatorio -> apresentacao
-        horarioatual = Horario.NORMAL;
+        Horario horarioatual = Horario.NORMAL;
+        Scanner scanner;
 
         BigBrothers c1 = new BigBrothers("Daniel", "danigatinho@gmail.com",5578, TiposDeMembro.Big_Brothers);
 
         System.out.println("Bem vindo ao sistema da MAsK_s0c13ty");
         System.out.println("Seu horário atual é:" + horarioatual);
-        System.out.println("Deseja mudar seu horário atual?\n +
-                "1 - sim \n +
+        System.out.println("Deseja mudar seu horário atual?\n +"
+                "1 - sim \n" +
                 "2 - nao");
         int resp = Integer.parseInt(scanner.next());
         if (resp == 1) {
@@ -39,39 +42,39 @@ public class Sistema {
         }
 
         Scanner s = new Scanner(System.in);
-        System.out.println("Qual seu tipo de usuário? Digite o número respectivo\n +
-                "0 - Encerrar o programa\n +
-                "1 - Mobile Members\n +
-                "2 - Heavy Lifters\n +
-                "3 - Script Guys \n +
+        System.out.println("Qual seu tipo de usuário? Digite o número respectivo\n" +
+                "0 - Encerrar o programa\n" +
+                "1 - Mobile Members\n" +
+                "2 - Heavy Lifters\n" +
+                "3 - Script Guys \n "+
                 "4 - Big Brothers");
         Scanner scan = new Scanner(System.in);
 
         int opcao = Integer.parseInt(scanner.next());
 
         if (opcao == 0){
-            System.out.println("Sistema Encerrado.")
-            break;
+            System.out.println("Sistema Encerrado.");
         }
+
         if (opcao == 1){
-            public void postarMensagem(Horario horario);
-            public void apresentacao();
+            c1.postarMensagem(horarioatual);
+            c1.apresentacao();
         }
         if (opcao == 2){
-            public void postarMensagem(Horario horario);
+            public void postarMensagem(horarioatual);
             public void apresentacao();
         }
         if (opcao == 3){
-            public void postarMensagem(Horario horario);
+            public void postarMensagem(horarioatual);
             public void apresentacao();
         }
         if (opcao == 4){
-            public void postarMensagem(Horario horario);
+            public void postarMensagem(horarioatual);
             public void apresentacao();
             c1.cadastroMembros();
         }
         else{
-            System.out.println("Digite um número entre um dos apresentados acima.")
+            System.out.println("Digite um número entre um dos apresentados acima.");
         }
     }
 }
