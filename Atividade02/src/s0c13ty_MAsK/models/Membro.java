@@ -25,6 +25,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
      * @return String
      */
     public String getNome() {
+
         return nome;
     }
 
@@ -33,6 +34,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
      * @return String
      */
     public String getEmail() {
+
         return email;
     }
 
@@ -41,6 +43,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
      * @return int
      */
     public int getID() {
+
         return ID;
     }
 
@@ -49,6 +52,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
      * @return o tipo de funcao que o membro executa
      */
     public TiposDeMembro getFuncao() {
+
         return funcao;
     }
 
@@ -57,6 +61,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
      * @param nome
      */
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
@@ -65,6 +70,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
      * @param email
      */
     public void setEmail(String email) {
+
         this.email = email;
     }
 
@@ -73,6 +79,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
      * @param ID
      */
     public void setID(int ID) {
+
         this.ID = ID;
     }
 
@@ -81,6 +88,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
      * @param funcao
      */
     public void setFuncao(TiposDeMembro funcao) {
+
         this.funcao = funcao;
     }
 
@@ -92,6 +100,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
      * @param funcao
      */
     public Membro(String nome, String email, int ID, TiposDeMembro funcao) {
+
         this.nome = nome;
         this.email = email;
         this.ID = ID;
@@ -100,6 +109,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     @Override
     public String toString() {
+
         return "Membro{" +
                 "nome='" + nome + '\'' +
                 ", email='" + email + '\'' +

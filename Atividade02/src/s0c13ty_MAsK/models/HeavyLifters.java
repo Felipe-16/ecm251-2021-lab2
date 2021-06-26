@@ -18,6 +18,7 @@ public class HeavyLifters extends Membro {
      * @param funcao
      */
     public HeavyLifters(String nome, String email, int ID, TiposDeMembro funcao) {
+
         super(nome, email, ID, funcao);
     }
 

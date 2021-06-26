@@ -20,10 +20,9 @@ public class BigBrothers extends Membro{
      * @param funcao
      */
     public BigBrothers(String nome, String email, int ID, TiposDeMembro funcao) {
+
         super(nome, email, ID, funcao);
     }
-
-
 
     /**
      * Método que vai retornar a apresentção do membro

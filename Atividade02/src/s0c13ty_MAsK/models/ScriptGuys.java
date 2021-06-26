@@ -17,6 +17,7 @@ public class ScriptGuys extends Membro{
      * @param funcao
      */
     public ScriptGuys(String nome, String email, int ID, TiposDeMembro funcao) {
+
         super(nome, email, ID, funcao);
     }
 
