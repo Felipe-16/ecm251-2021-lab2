@@ -2,10 +2,7 @@ package s0c13ty_MAsK.controladores;
 
 import s0c13ty_MAsK.enumerates.Horario;
 import s0c13ty_MAsK.enumerates.TiposDeMembro;
-import s0c13ty_MAsK.models.BigBrothers;
-import s0c13ty_MAsK.models.HeavyLifters;
-import s0c13ty_MAsK.models.MobileMembers;
-import s0c13ty_MAsK.models.ScriptGuys;
+import s0c13ty_MAsK.models.*;
 
 import java.util.Scanner;
 
@@ -14,7 +11,6 @@ import java.util.Scanner;
  */
 public class Sistema {
     public static void main(String[] args) {
-
     // registrar membros
     // informar quando perguntado o horario
     // postar msg para todos os membros
@@ -77,4 +73,5 @@ public class Sistema {
             System.out.println("Digite um número entre um dos apresentados acima.");
         }
     }
+    // Possivel local onde sera implenentado o metodo de cadastrar membros
 }
