@@ -25,9 +25,9 @@ public class MobileMembers extends Membro{
      * @return Apresentação
      */
     @Override
-    public String apresentacao() {
+    public void apresentacao() {
 
-        return null;
+        System.out.println(toString());
     }
 
     /**

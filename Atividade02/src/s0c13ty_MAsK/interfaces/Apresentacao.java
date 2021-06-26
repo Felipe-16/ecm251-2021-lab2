@@ -5,5 +5,5 @@ package s0c13ty_MAsK.interfaces;
  */
 
 public interface Apresentacao {
-    public abstract String apresentacao();
+    public abstract void apresentacao();
 }

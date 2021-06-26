@@ -5,10 +5,15 @@
 package s0c13ty_MAsK;
 
 import s0c13ty_MAsK.controladores.Sistema;
+import s0c13ty_MAsK.enumerates.TiposDeMembro;
+import s0c13ty_MAsK.models.MobileMembers;
 
 public class Main {
 
     public static void main(String[] args) {
-	Sistema sistema = new Sistema();
+
+        MobileMembers c1 = new MobileMembers("juliana", "jujugatinha@gmail.com",6969, TiposDeMembro.Mobile_Members);
+
+        c1.apresentacao();
     }
 }

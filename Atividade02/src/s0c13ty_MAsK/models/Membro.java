@@ -97,4 +97,14 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
         this.ID = ID;
         this.funcao = funcao;
     }
+
+    @Override
+    public String toString() {
+        return "Membro{" +
+                "nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                ", ID=" + ID +
+                ", funcao=" + funcao +
+                '}';
+    }
 }
