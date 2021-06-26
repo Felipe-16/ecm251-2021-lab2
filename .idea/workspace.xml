@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed8ea2f-a507-4ded-8fab-1c22a0696366" name="Default Changelist" comment="Teste">
+    <list default="true" id="7ed8ea2f-a507-4ded-8fab-1c22a0696366" name="Default Changelist" comment="Att Sistema">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" afterDir="false" />
     </list>
@@ -37,6 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624668758075</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Att Sistema">
+      <created>1624678682548</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624678682548</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +221,8 @@
     <MESSAGE value="Att import Membros" />
     <MESSAGE value="Att organização membros e apresentação" />
     <MESSAGE value="Teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste" />
+    <MESSAGE value="Att Sistema" />
+    <option name="LAST_COMMIT_MESSAGE" value="Att Sistema" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

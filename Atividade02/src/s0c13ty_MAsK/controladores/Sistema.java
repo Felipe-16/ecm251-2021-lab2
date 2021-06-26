@@ -22,7 +22,7 @@ public class Sistema {
         Horario horarioatual = Horario.NORMAL;
         Scanner scanner;
 
-        BigBrothers c1 = new BigBrothers("Daniel", "danigatinho@gmail.com",5578, TiposDeMembro.Big_Brothers);
+        BigBrothers c4 = new BigBrothers("Daniel", "danigatinho@gmail.com",5578, TiposDeMembro.Big_Brothers);
 
         System.out.println("Bem vindo ao sistema da MAsK_s0c13ty");
         System.out.println("Seu horário atual é:" + horarioatual);
@@ -61,17 +61,17 @@ public class Sistema {
             c1.apresentacao();
         }
         if (opcao == 2){
-            public void postarMensagem(horarioatual);
-            public void apresentacao();
+            c2.postarMensagem(horarioatual);
+            c2.apresentacao();
         }
         if (opcao == 3){
-            public void postarMensagem(horarioatual);
-            public void apresentacao();
+            c3.postarMensagem(horarioatual);
+            c3.apresentacao();
         }
         if (opcao == 4){
-            public void postarMensagem(horarioatual);
-            public void apresentacao();
-            c1.cadastroMembros();
+            c4.postarMensagem(horarioatual);
+            c4.apresentacao();
+            c4.cadastroMembros();
         }
         else{
             System.out.println("Digite um número entre um dos apresentados acima.");
