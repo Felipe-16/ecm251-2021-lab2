@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Sistema {
     public static void main(String[] args) {
     // registrar membros
-    // informar quando perguntado o horario
+    // informar quando perguntado o horario check
     // postar msg para todos os membros
     // chamada de relatorio -> apresentacao
         Horario horarioatual = Horario.NORMAL;
@@ -31,7 +31,8 @@ public class Sistema {
                     "3 - Saber seu horário atual \n" +
                     "4 - Remocao de membro \n" +
                     "5 - Postar mensagens dos membros \n" +
-                    "6 - Terminar sistema");
+                    "6 - Apresentação dos membros\n" +
+                    "7 - Terminar sistema");
             int resp = Integer.parseInt(scanner.next());
 
             switch (resp){
@@ -65,6 +66,9 @@ public class Sistema {
                     break;
 
                 case 6:
+                    membro.apresentacao();
+
+                case 7:
                     sistema = false;
                     System.out.println("===============\n" +
                             "0br1g4d0 por usar o sistema\n" +
