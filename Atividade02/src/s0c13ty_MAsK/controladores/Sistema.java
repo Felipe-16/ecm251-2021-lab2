@@ -49,7 +49,8 @@ public class Sistema {
                     break;
 
                 case 2:
-                    Membro membro = cadastroMembro();
+                    Membro membro;
+                    sistema.cadastroMembro();
                     break;
 
                 case 3:
