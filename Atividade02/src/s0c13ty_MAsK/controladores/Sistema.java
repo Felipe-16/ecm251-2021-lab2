@@ -113,18 +113,14 @@ public class Sistema {
             switch (add) {
                 case 1:
                     return new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members);
-                    break;
 
                 case 2:
                     return new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters);
-                    break;
 
                 case 3:
                     return new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys);
-                    break;
                 case 4:
                     return new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers);
-                    break;
             }
 
             System.out.println("Voce deseja cadastrar outro membro?\n" +
@@ -132,5 +128,6 @@ public class Sistema {
                     "2 - Nao");
             resposta = Integer.parseInt(scanner.next());
         }
+        return null;
     }
 }
