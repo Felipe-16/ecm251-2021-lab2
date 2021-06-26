@@ -30,6 +30,16 @@ public class BigBrothers extends Membro{
     }
 
     /**
+     * Método que vai retornar a apresentção do membro
+     * @return Apresentação
+     */
+    @Override
+    public void apresentacao() {
+
+        System.out.println(toString());
+    }
+
+    /**
      * Método que retorna a mensagem do membro
      * @param horario
      * @return a mensagem
@@ -45,15 +55,5 @@ public class BigBrothers extends Membro{
         else{
             return msg2;
         }
-    }
-
-    /**
-     * Método que vai retornar a apresentção do membro
-     * @return Apresentação
-     */
-    @Override
-    public String apresentacao() {
-
-        return null;
     }
 }
