@@ -37,15 +37,15 @@ public class HeavyLifters extends Membro {
      * @return a mensagem
      */
     @Override
-    public String postarMensagem(Horario horario) {
+    public void String postarMensagem(Horario horario) {
 
         String msg1 = "Podem contar conosco!";
         String msg2 = "N00b_qu3_n_Se_r3pita.bat";
-        if (horario == Horario.NORMAL){
-            return msg1;
-        }
-        else{
-            return msg2;
-        }
+            if (horario == Horario.NORMAL){
+                System.out.println(msg1);
+            }
+            else{
+                System.out.println(msg2);
+            }
     }
 }

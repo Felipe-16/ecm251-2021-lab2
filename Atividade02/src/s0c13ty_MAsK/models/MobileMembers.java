@@ -36,15 +36,15 @@ public class MobileMembers extends Membro{
      * @return a mensagem
      */
     @Override
-    public String postarMensagem(Horario horario) {
+    public void String postarMensagem(Horario horario) {
 
         String msg1 = "Happy Coding!";
         String msg2 = "Happy_C0d1ng. Maskers";
             if (horario == Horario.NORMAL){
-                return msg1;
+                System.out.println(msg1);
             }
             else{
-                return msg2;
+                System.out.println(msg2);
             }
     }
 }

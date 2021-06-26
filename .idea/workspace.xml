@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed8ea2f-a507-4ded-8fab-1c22a0696366" name="Default Changelist" comment="Att organização membros e apresentação">
+    <list default="true" id="7ed8ea2f-a507-4ded-8fab-1c22a0696366" name="Default Changelist" comment="Teste">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/BigBrothers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/BigBrothers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/HeavyLifters.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/HeavyLifters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/MobileMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/MobileMembers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/ScriptGuys.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/ScriptGuys.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624667799698</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Teste">
+      <created>1624668758074</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624668758075</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +216,8 @@
     <MESSAGE value="Att estética" />
     <MESSAGE value="Att import Membros" />
     <MESSAGE value="Att organização membros e apresentação" />
-    <option name="LAST_COMMIT_MESSAGE" value="Att organização membros e apresentação" />
+    <MESSAGE value="Teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
