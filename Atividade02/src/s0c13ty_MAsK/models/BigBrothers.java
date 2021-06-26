@@ -45,7 +45,7 @@ public class BigBrothers extends Membro{
      * @return a mensagem
      */
     @Override
-    public void String postarMensagem(Horario horario) {
+    public void postarMensagem(Horario horario) {
 
         String msg1 = "“Sempre ajudando as pessoas membros ou não S2!";
         String msg2 = "...";

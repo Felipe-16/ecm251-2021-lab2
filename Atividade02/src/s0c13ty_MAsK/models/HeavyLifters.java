@@ -37,7 +37,7 @@ public class HeavyLifters extends Membro {
      * @return a mensagem
      */
     @Override
-    public void String postarMensagem(Horario horario) {
+    public void postarMensagem(Horario horario) {
 
         String msg1 = "Podem contar conosco!";
         String msg2 = "N00b_qu3_n_Se_r3pita.bat";

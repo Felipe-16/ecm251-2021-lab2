@@ -36,7 +36,7 @@ public class MobileMembers extends Membro{
      * @return a mensagem
      */
     @Override
-    public void String postarMensagem(Horario horario) {
+    public void postarMensagem(Horario horario) {
 
         String msg1 = "Happy Coding!";
         String msg2 = "Happy_C0d1ng. Maskers";

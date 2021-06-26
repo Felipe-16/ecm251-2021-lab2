@@ -36,7 +36,7 @@ public class ScriptGuys extends Membro{
      * @return a mensagem
      */
     @Override
-    public void String postarMensagem(Horario horario) {
+    public void postarMensagem(Horario horario) {
 
         String msg1 = "Prazer em ajudar novos amigos de código!";
         String msg2 = "QU3Ro_S3us_r3curs0s.py";
