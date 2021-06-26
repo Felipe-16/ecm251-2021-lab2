@@ -51,6 +51,7 @@ public class Sistema {
                 case 2:
                     Membro membro;
                     sistema.cadastroMembro();
+                    System.out.println();
                     break;
 
                 case 3:
