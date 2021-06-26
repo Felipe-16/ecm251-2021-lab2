@@ -1,5 +1,7 @@
 package s0c13ty_MAsK.models;
 
+import s0c13ty_MAsK.enumerates.Horario;
+
 /**
  * Classe dos Big brothers que são os responsaveis
  */
