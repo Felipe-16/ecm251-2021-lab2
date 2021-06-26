@@ -42,7 +42,7 @@ public class BigBrothers extends Membro{
     @Override
     public void postarMensagem(Horario horarioAtual) {
 
-        String msg1 = "“Sempre ajudando as pessoas membros ou não S2!";
+        String msg1 = "Sempre ajudando as pessoas membros ou não S2!";
         String msg2 = "...";
             if (horarioAtual == Horario.NORMAL){
                 System.out.println(msg1);
