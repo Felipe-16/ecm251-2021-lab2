@@ -21,10 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ed8ea2f-a507-4ded-8fab-1c22a0696366" name="Default Changelist" comment="Teste">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/BigBrothers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/BigBrothers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/HeavyLifters.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/HeavyLifters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/MobileMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/MobileMembers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/ScriptGuys.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/ScriptGuys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -63,7 +59,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
