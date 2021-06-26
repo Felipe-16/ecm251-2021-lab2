@@ -18,13 +18,13 @@ public class Sistema {
         BigBrothers c4 = new BigBrothers("Daniel", "danigatinho@gmail.com",5578, TiposDeMembro.Big_Brothers);
 
         c1.apresentacao();
-        c1.postarMensagem(Horario.NORMAL);
+        c1.postarMensagem(Horario.EXTRA);
         c2.apresentacao();
-        c2.postarMensagem(Horario.NORMAL);
+        c2.postarMensagem(Horario.EXTRA);
         c3.apresentacao();
-        c3.postarMensagem(Horario.NORMAL);
+        c3.postarMensagem(Horario.EXTRA);
         c4.apresentacao();
-        c4.postarMensagem(Horario.NORMAL);
+        c4.postarMensagem(Horario.EXTRA);
     }
     // registrar membros
     // informar quando perguntado o horario

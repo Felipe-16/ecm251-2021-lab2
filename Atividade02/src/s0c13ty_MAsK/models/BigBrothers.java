@@ -3,6 +3,8 @@ package s0c13ty_MAsK.models;
 import s0c13ty_MAsK.enumerates.Horario;
 import s0c13ty_MAsK.enumerates.TiposDeMembro;
 
+import java.util.Scanner;
+
 /**
  * Classe dos Big brothers que são os responsaveis
  */
@@ -26,6 +28,20 @@ public class BigBrothers extends Membro{
      */
     // Quando cadastrados, os script guys devem mandar uma mensagem de boas vindas
     final void cadastroMembros () {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Deseja adicionar um novo membro?\n" +
+                "1 - sim \n" +
+                "2 - nao");
+
+        int resposta = Integer.parseInt(scanner.next());
+
+        if(resposta == 1){
+            System.out.println("Que tipo de membro gostaria de adicionar?");
+            String add = scanner.next();
+
+        }
+
 
     }
 
@@ -53,7 +69,7 @@ public class BigBrothers extends Membro{
                 System.out.println(msg1);
             }
             else{
-                System.out.println(msg1);
+                System.out.println(msg2);
             }
     }
 }

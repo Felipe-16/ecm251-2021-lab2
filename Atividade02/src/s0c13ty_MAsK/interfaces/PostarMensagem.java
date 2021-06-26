@@ -7,5 +7,5 @@ import s0c13ty_MAsK.enumerates.Horario;
  */
 
 public interface PostarMensagem {
-    public String postarMensagem(Horario horario);
+    public void postarMensagem(Horario horario);
 }
