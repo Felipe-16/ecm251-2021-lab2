@@ -13,4 +13,9 @@ public class Main {
     public static void main(String[] args) {
         Sistema sistema = new Sistema();
 
+        MobileMembers c1 = new MobileMembers("juliana", "jujugatinha@gmail.com",6969, TiposDeMembro.Mobile_Members);
+        ScriptGuys c1 = new ScriptGuys("Felipe", "fefegatinho@gmail.com",1042, TiposDeMembro.Script_Guys);
+        HeavyLifters c1 = new HeavyLifters("Daniel", "danigatinho@gmail.com",5678, TiposDeMembro.Heavy_Lifters);
+        BigBrothers c1 = new BigBrothers("Daniel", "danigatinho@gmail.com",5578, TiposDeMembro.Big_Brothers);
+
     }

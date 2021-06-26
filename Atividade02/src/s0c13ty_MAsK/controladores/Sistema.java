@@ -1,6 +1,5 @@
 package s0c13ty_MAsK.controladores;
 
-
 import s0c13ty_MAsK.enumerates.Horario;
 import s0c13ty_MAsK.enumerates.TiposDeMembro;
 import s0c13ty_MAsK.models.MobileMembers;
