@@ -37,6 +37,7 @@ public class BigBrothers extends Membro{
         int resposta = Integer.parseInt(scanner.next());
 
         if(resposta == 1){
+
             System.out.println("Que tipo de membro gostaria de adicionar?\n" +
                     "1 - Mobile Members\n" +
                     "2 - Heavy Lifters\n" +
@@ -44,54 +45,44 @@ public class BigBrothers extends Membro{
                     "4 - Big Brothers");
             int add = Integer.parseInt(scanner.next());
 
+            System.out.println("Qual o nome do membro");
+            String nome = scanner.next();
+
+            System.out.println("Qual o email?");
+            String email = scanner.next();
+
+            System.out.println("Qual o ID?");
+            int ID = Integer.parseInt(scanner.next());
+
             switch (add){
                 case 1:
-                    System.out.println("Qual o nome do membro");
-                    String nome = scanner.next();
-                    System.out.println("Qual o email?");
-                    String email = scanner.next();
-                    System.out.println("Qual o ID?");
-                    int ID = Integer.parseInt(scanner.next());
+
                     MobileMembers novoMembro = new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members);
                     System.out.println(novoMembro.toString());
                     break;
 
                 case 2:
-                    System.out.println("Qual o nome do membro");
-                    String nome2 = scanner.next();
-                    System.out.println("Qual o email?");
-                    String email2 = scanner.next();
-                    System.out.println("Qual o ID?");
-                    int ID2 = Integer.parseInt(scanner.next());
-                    HeavyLifters novoMembro2 = new HeavyLifters(nome2, email2, ID2, TiposDeMembro.Heavy_Lifters);
+
+                    HeavyLifters novoMembro2 = new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters);
                     System.out.println(novoMembro2.toString());
                     break;
 
                 case 3:
-                    System.out.println("Qual o nome do membro");
-                    String nome3 = scanner.next();
-                    System.out.println("Qual o email?");
-                    String email3 = scanner.next();
-                    System.out.println("Qual o ID?");
-                    int ID3 = Integer.parseInt(scanner.next());
-                    ScriptGuys novoMembro3 = new ScriptGuys(nome3, email3, ID3, TiposDeMembro.Script_Guys);
+
+                    ScriptGuys novoMembro3 = new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys);
                     System.out.println(novoMembro3.toString());
                     break;
                 case 4:
-                    System.out.println("Qual o nome do membro");
-                    String nome4 = scanner.next();
-                    System.out.println("Qual o email?");
-                    String email4 = scanner.next();
-                    System.out.println("Qual o ID?");
-                    int ID4 = Integer.parseInt(scanner.next());
-                    BigBrothers novoMembro4 = new BigBrothers(nome4, email4, ID4, TiposDeMembro.Big_Brothers);
+
+                    BigBrothers novoMembro4 = new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers);
                     System.out.println(novoMembro4.toString());
                     break;
             }
 
         }
-
-
+        else{
+            System.out.println("cadastro interrompido!");
+        }
     }
 
     /**
