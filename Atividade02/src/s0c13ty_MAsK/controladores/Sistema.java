@@ -18,7 +18,7 @@ public class Sistema {
     // postar msg para todos os membros
     // chamada de relatorio -> apresentacao
         Horario horarioatual = Horario.NORMAL;
-        Scanner scanner= new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         boolean iniciar = true;
 
         System.out.println("Bem vindo ao sistema da MAsK_s0c13ty");
@@ -82,16 +82,15 @@ public class Sistema {
                             "0br1g4d0 por usar o sistema\n" +
                             "Finalizando o sistema! bons codigos");
             }
-
         }
-
-
     }
+
     // Sera implementado aqui o cadastro de membros, uma vez considerando que quem esta usando o sistema seja um dos Big Brothers
     /**
      * Metodo que cadastra os membros com o seu papel dentro do grupo
      */
     public static Membro cadastroMembros () {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Deseja adicionar um novo membro?\n" +
@@ -109,7 +108,7 @@ public class Sistema {
                     "4 - Big Brothers");
             int add = Integer.parseInt(scanner.next());
 
-            System.out.println("Qual o nome do membro");
+            System.out.println("Qual o nome do membro?");
             String nome = scanner.next();
 
             System.out.println("Qual o email?");
@@ -127,6 +126,7 @@ public class Sistema {
 
                 case 3:
                     listaUsuario.add(new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys));
+
                 case 4:
                     listaUsuario.add(new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers));
             }
