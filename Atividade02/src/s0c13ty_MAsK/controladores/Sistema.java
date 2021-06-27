@@ -28,6 +28,9 @@ public class Sistema {
         System.out.println("Seu horário atual é: " + horarioatual);
         System.out.println("=====================================");
 
+        /**
+         * While para sempre executar o sistema ate que o usuario termine
+         */
         while(iniciar) {
 
             System.out.println("Qual opção deseja executar?\n" +
@@ -38,8 +41,11 @@ public class Sistema {
                     "5 - Postar mensagens dos membros \n" +
                     "6 - Apresentação dos membros\n" +
                     "7 - Terminar sistema");
-            int resp = Integer.parseInt(scanner.next());
+            int resp = scanner.nextInt();
 
+            /**
+             * Switch case para cada execucao do menu
+             */
             switch (resp){
                 case 1:
                     if (horarioatual == Horario.NORMAL){
@@ -101,8 +107,11 @@ public class Sistema {
                 "1 - sim \n" +
                 "2 - nao");
 
-        int resposta = Integer.parseInt(scanner.next());
+        int resposta = scanner.nextInt();
 
+        /**
+         * While para executar o cadastro de membro ate que o usuario termine
+         */
         while (resposta == 1) {
 
             System.out.println("Que tipo de membro gostaria de adicionar?\n" +
@@ -110,7 +119,7 @@ public class Sistema {
                     "2 - Heavy Lifters\n" +
                     "3 - Script Guys \n" +
                     "4 - Big Brothers");
-            int add = Integer.parseInt(scanner.next());
+            int add = scanner.nextInt();
 
             System.out.println("Qual o nome do membro?");
             String nome = scanner.next();
@@ -119,8 +128,11 @@ public class Sistema {
             String email = scanner.next();
 
             System.out.println("Qual o ID?");
-            int ID = Integer.parseInt(scanner.next());
+            int ID = scanner.nextInt();
 
+            /**
+             * Switch case para cadastrar membro para cada função
+             */
             switch (add) {
                 case 1:
                     listaMembros.add(new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members));
@@ -138,11 +150,13 @@ public class Sistema {
                     listaMembros.add(new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers));
                     break;
             }
+            Arquivamento arquivamento = new Arquivamento();
+            arquivamento.arquivar(listaMembros);
 
             System.out.println("Voce deseja cadastrar outro membro?\n" +
                     "1 - Sim \n" +
                     "2 - Nao");
-            resposta = Integer.parseInt(scanner.next());
+            resposta = scanner.nextInt();
         }
     }
 
@@ -156,6 +170,9 @@ public class Sistema {
                 "2 - Nao");
         int resposta = scanner.nextInt();
 
+        /**
+         * While para executar a remoção de membro ate que o usuario termine
+         */
         while (resposta == 1) {
 
             System.out.println("Voce deseja apagar qual posição?");
@@ -166,7 +183,7 @@ public class Sistema {
             System.out.println("Voce deseja remover outro membro?\n" +
                     "1 - Sim \n" +
                     "2 - Nao");
-            resposta = Integer.parseInt(scanner.next());
+            resposta = scanner.nextInt();
 
         }
 

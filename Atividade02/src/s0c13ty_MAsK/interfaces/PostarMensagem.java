@@ -8,5 +8,9 @@ import s0c13ty_MAsK.enumerates.Horario;
 
 public interface PostarMensagem {
 
+    /**
+     * Método que permite o usuario implementar a mensagem dele em determinado horario
+     * @param horario
+     */
     public void postarMensagem(Horario horario);
 }

@@ -6,5 +6,8 @@ package s0c13ty_MAsK.interfaces;
 
 public interface Apresentacao {
 
+    /**
+     * Método que faz a apresentação do membro
+     */
     public abstract void apresentacao();
 }

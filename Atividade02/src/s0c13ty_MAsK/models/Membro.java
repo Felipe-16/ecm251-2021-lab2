@@ -107,6 +107,10 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
         this.funcao = funcao;
     }
 
+    /**
+     * Método que retorna o toString do membro, independente da função
+     * @return to string
+     */
     @Override
     public String toString() {
 

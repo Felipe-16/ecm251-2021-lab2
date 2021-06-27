@@ -14,6 +14,11 @@ import java.io.IOException;
  */
 public class Main {
 
+    /**
+     * Método que executa o sistema
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
         Sistema sistema = new Sistema();
         sistema.run();
