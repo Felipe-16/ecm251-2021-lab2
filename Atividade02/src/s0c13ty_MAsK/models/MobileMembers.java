@@ -21,8 +21,7 @@ public class MobileMembers extends Membro{
     }
 
     /**
-     * Método que vai exibir a apresentção do membro
-     * @return Apresentação
+     * Método que vai exibir a apresentação do membro
      */
     @Override
     public void apresentacao() {
