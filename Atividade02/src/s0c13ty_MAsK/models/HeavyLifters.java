@@ -4,18 +4,16 @@ import s0c13ty_MAsK.enumerates.Horario;
 import s0c13ty_MAsK.enumerates.TiposDeMembro;
 
 /**
- * Classe que trabalham com estacoes pesadas
+ * Classe de membros que trabalham com estações pesadas
  */
-
 public class HeavyLifters extends Membro {
 
     /**
      * Construtor da classe Heavy Lifters
-     *
-     * @param nome
-     * @param email
-     * @param ID
-     * @param funcao
+     * @param nome - nome do membro
+     * @param email - email do membro
+     * @param ID - ID do membro
+     * @param funcao - função do membro
      */
     public HeavyLifters(String nome, String email, int ID, TiposDeMembro funcao) {
 
@@ -23,8 +21,7 @@ public class HeavyLifters extends Membro {
     }
 
     /**
-     * Método que vai retornar a apresentção do membro
-     * @return Apresentação
+     * Método que vai exibir a apresentação do membro
      */
     @Override
     public void apresentacao() {
@@ -33,16 +30,15 @@ public class HeavyLifters extends Membro {
     }
 
     /**
-     * Método que retorna a mensagem do membro
-     * @param horario
-     * @return a mensagem
+     * Método que exibe a mensagem do membro
+     * @param horarioAtual - horário do membro (NORMAL ou EXTRA)
      */
     @Override
-    public void postarMensagem(Horario horario) {
+    public void postarMensagem(Horario horarioAtual) {
 
         String msg1 = "Podem contar conosco!";
         String msg2 = "N00b_qu3_n_Se_r3pita.bat";
-            if (horario == Horario.NORMAL){
+            if (horarioAtual == Horario.NORMAL){
                 System.out.println(msg1);
             }
             else{

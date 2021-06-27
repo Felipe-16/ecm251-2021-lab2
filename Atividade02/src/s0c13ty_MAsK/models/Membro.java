@@ -8,13 +8,11 @@ import s0c13ty_MAsK.interfaces.PostarMensagem;
  * Classe abstrata que representa os membros do grupo
  * com o nome, email e ID do membro
  */
-
 public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
-     * atributos dos membros
+     * Atributos dos membros
      */
-
     private String nome;
     private String email;
     private int ID;
@@ -31,7 +29,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
      * Getter do email
-     * @return String
+     * @return String - email do membro
      */
     public String getEmail() {
 
@@ -40,7 +38,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
      * Getter do ID
-     * @return int
+     * @return int - número do ID
      */
     public int getID() {
 
@@ -49,7 +47,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
      * Getter do tipos de membro
-     * @return o tipo de funcao que o membro executa
+     * @return String - tipo de função que o membro executa
      */
     public TiposDeMembro getFuncao() {
 
@@ -58,7 +56,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
      * Setter do nome
-     * @param nome
+     * @param nome - nome do membro
      */
     public void setNome(String nome) {
 
@@ -67,7 +65,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
      * Setter do email
-     * @param email
+     * @param email - email do membro
      */
     public void setEmail(String email) {
 
@@ -76,7 +74,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
      * Setter do ID
-     * @param ID
+     * @param ID - ID do membro
      */
     public void setID(int ID) {
 
@@ -85,7 +83,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
      * Setter do tipos de membro
-     * @param funcao
+     * @param funcao - função do membro
      */
     public void setFuncao(TiposDeMembro funcao) {
 
@@ -94,10 +92,10 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
      * Construtor da classe Membro
-     * @param nome
-     * @param email
-     * @param ID
-     * @param funcao
+     * @param nome - nome do membro
+     * @param email - email do membro
+     * @param ID - ID do membro
+     * @param funcao - função do membro
      */
     public Membro(String nome, String email, int ID, TiposDeMembro funcao) {
 
@@ -109,16 +107,16 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
 
     /**
      * Método que retorna o toString do membro, independente da função
-     * @return to string
+     * @return toString - lista com informações do membro
      */
     @Override
     public String toString() {
 
-        return "Membro{" +
-                "nome='" + nome + '\'' +
-                ", email='" + email + '\'' +
-                ", ID=" + ID +
-                ", funcao=" + funcao +
+        return "Membro {" +
+                "nome ='" + nome + '\'' +
+                ", email ='" + email + '\'' +
+                ", ID =" + ID +
+                ", funcao =" + funcao +
                 '}';
     }
 }
