@@ -4,6 +4,7 @@ import s0c13ty_MAsK.enumerates.Horario;
 import s0c13ty_MAsK.enumerates.TiposDeMembro;
 import s0c13ty_MAsK.models.*;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -99,7 +100,7 @@ public class Sistema {
     /**
      * Metodo que cadastra os membros com o seu papel dentro do grupo
      */
-    public static void cadastroMembros () {
+    public static void cadastroMembros () throws FileNotFoundException {
 
         Scanner scanner = new Scanner(System.in);
 
