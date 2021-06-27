@@ -18,6 +18,7 @@ public class MobileMembers extends Membro{
      */
     public MobileMembers(String nome, String email, int ID, TiposDeMembro funcao) {
         super(nome, email, ID, funcao);
+
     }
 
     /**

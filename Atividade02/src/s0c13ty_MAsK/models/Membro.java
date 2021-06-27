@@ -4,6 +4,8 @@ import s0c13ty_MAsK.enumerates.TiposDeMembro;
 import s0c13ty_MAsK.interfaces.Apresentacao;
 import s0c13ty_MAsK.interfaces.PostarMensagem;
 
+import java.util.LinkedList;
+
 /**
  * Classe abstrata que representa os membros do grupo
  * com o nome, email e ID do membro
@@ -23,33 +25,37 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
     /**
      * Getter do nome
      * @return String
+     * @param nome
      */
-    public String getNome() {
-        return nome;
+    public String getNome(String nome) {
+        return this.nome;
     }
 
     /**
      * Getter do email
      * @return String
+     * @param email
      */
-    public String getEmail() {
-        return email;
+    public String getEmail(String email) {
+        return this.email;
     }
 
     /**
      * Getter do ID
      * @return int
+     * @param ID
      */
-    public int getID() {
-        return ID;
+    public int getID(int ID) {
+        return this.ID;
     }
 
     /**
      * Getter do tipos de membro
      * @return o tipo de funcao que o membro executa
+     * @param funcao
      */
-    public TiposDeMembro getFuncao() {
-        return funcao;
+    public TiposDeMembro getFuncao(TiposDeMembro funcao) {
+        return this.funcao;
     }
 
     /**
@@ -96,6 +102,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
         this.email = email;
         this.ID = ID;
         this.funcao = funcao;
+
     }
 
     @Override

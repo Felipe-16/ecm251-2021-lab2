@@ -3,13 +3,15 @@ package s0c13ty_MAsK.models;
 import s0c13ty_MAsK.enumerates.Horario;
 import s0c13ty_MAsK.enumerates.TiposDeMembro;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
  * Classe dos Big brothers que são os responsaveis
  */
 
-public class BigBrothers extends Membro{
+public class BigBrothers extends Membro {
+
 
     /**
      * Construtor da classe Big Brothers
@@ -21,6 +23,10 @@ public class BigBrothers extends Membro{
      */
     public BigBrothers(String nome, String email, int ID, TiposDeMembro funcao) {
         super(nome, email, ID, funcao);
+        getNome(nome);
+        getID(ID);
+        getFuncao(funcao);
+
     }
 
 
