@@ -88,6 +88,8 @@ public class Sistema {
 
 
                 case 7:
+                    Arquivamento arquivamento = new Arquivamento();
+                    arquivamento.arquivar(listaMembros);
                     iniciar = false;
                     System.out.println("===============\n" +
                             "0br1g4d0 por usar o sistema.\n" +
@@ -151,8 +153,7 @@ public class Sistema {
                     listaMembros.add(new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers));
                     break;
             }
-            Arquivamento arquivamento = new Arquivamento();
-            arquivamento.arquivar(listaMembros);
+
 
             System.out.println("Você deseja cadastrar outro membro?\n" +
                     "1 - Sim \n" +

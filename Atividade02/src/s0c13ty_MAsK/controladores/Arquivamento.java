@@ -11,6 +11,7 @@ public class Arquivamento {
 
     /**
      * Método que realiza o arquivamento dos novos membros em um arquivo .csv
+     *
      * @param list - lista dos membros cadastrados
      * @throws FileNotFoundException - Exceção para arquivos não encontrados
      */
@@ -51,9 +52,8 @@ public class Arquivamento {
         } catch (FileNotFoundException fileNotFoundException) {
             fileNotFoundException.printStackTrace();
         }
-   }
+    }
 }
-
 
 
 
