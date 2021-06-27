@@ -10,17 +10,14 @@ import s0c13ty_MAsK.interfaces.PostarMensagem;
  */
 public abstract class Membro implements Apresentacao, PostarMensagem {
 
-    /**
-     * Atributos dos membros
-     */
     private String nome;
     private String email;
     private int ID;
     private TiposDeMembro funcao;
 
     /**
-     * Getter do nome
-     * @return String
+     * Método Getter do nome do membro
+     * @return String - nome do membro
      */
     public String getNome() {
 
@@ -28,7 +25,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
     }
 
     /**
-     * Getter do email
+     * Método Getter do email do membro
      * @return String - email do membro
      */
     public String getEmail() {
@@ -37,7 +34,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
     }
 
     /**
-     * Getter do ID
+     * Método Getter do ID do membro
      * @return int - número do ID
      */
     public int getID() {
@@ -46,7 +43,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
     }
 
     /**
-     * Getter do tipos de membro
+     * Método Getter do tipos de membro
      * @return String - tipo de função que o membro executa
      */
     public TiposDeMembro getFuncao() {
@@ -55,7 +52,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
     }
 
     /**
-     * Setter do nome
+     * Método Setter do nome do membro
      * @param nome - nome do membro
      */
     public void setNome(String nome) {
@@ -64,7 +61,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
     }
 
     /**
-     * Setter do email
+     * Método Setter do email do membro
      * @param email - email do membro
      */
     public void setEmail(String email) {
@@ -73,7 +70,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
     }
 
     /**
-     * Setter do ID
+     * Método Setter do ID do membro
      * @param ID - ID do membro
      */
     public void setID(int ID) {
@@ -82,7 +79,7 @@ public abstract class Membro implements Apresentacao, PostarMensagem {
     }
 
     /**
-     * Setter do tipos de membro
+     * Método Setter do tipos de membro do membro
      * @param funcao - função do membro
      */
     public void setFuncao(TiposDeMembro funcao) {
