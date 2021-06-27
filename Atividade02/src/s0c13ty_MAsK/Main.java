@@ -13,7 +13,7 @@ public class Main {
     /**
      * Método que executa o sistema
      * @param args - argumentos do método
-     * @throws IOException - caso o sistema não rode
+     * @throws IOException - Exceção para caso o sistema não rode
      */
     public static void main(String[] args) throws IOException {
         Sistema sistema = new Sistema();

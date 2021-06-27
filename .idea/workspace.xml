@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed8ea2f-a507-4ded-8fab-1c22a0696366" name="Default Changelist" comment="Att JavaDoc e estética">
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Arquivamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Arquivamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624824608712</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Att JavaDoc e estética">
+      <created>1624825377660</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1624825377660</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
