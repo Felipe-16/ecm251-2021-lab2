@@ -4,6 +4,7 @@ import s0c13ty_MAsK.enumerates.Horario;
 import s0c13ty_MAsK.enumerates.TiposDeMembro;
 import s0c13ty_MAsK.models.*;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,12 +12,14 @@ import java.util.Scanner;
  * Classe onde sera executado a implementacao
  */
 public class Sistema {
-    private static ArrayList<Membro> listaUsuario = new ArrayList<>();
-    public static void main(String[] args) {
-    // registrar membros check
-    // informar quando perguntado o horario check
-    // postar msg para todos os membros
-    // chamada de relatorio -> apresentacao
+    private static ArrayList<Membro> listaMembros = new ArrayList<>();
+
+    /**
+     * Método que vai rodar o codigo
+     * @throws IOException
+     */
+    public static void run() throws IOException {
+
         Horario horarioatual = Horario.NORMAL;
         Scanner scanner = new Scanner(System.in);
         boolean iniciar = true;
@@ -58,19 +61,20 @@ public class Sistema {
                     System.out.println("Seu horario é: " + horarioatual);
                     break;
 
-//                case 4:
-//                    Membro membro = removerMembro();
-//                    System.out.println("Membro removido!");
-//                    break;
+                case 4:
+                    removerMembro();
+                    System.out.println("Membro removido!");
+                    break;
 
                 case 5:
-                    for (Membro membro : listaUsuario ) {
+                    for (Membro membro : listaMembros) {
+                        System.out.println(membro.getNome());
                         membro.postarMensagem(horarioatual);
                     }
                     break;
 
                 case 6:
-                    for (Membro membro: listaUsuario) {
+                    for (Membro membro: listaMembros) {
                         membro.apresentacao();
                     }
                     break;
@@ -89,7 +93,7 @@ public class Sistema {
     /**
      * Metodo que cadastra os membros com o seu papel dentro do grupo
      */
-    public static Membro cadastroMembros () {
+    public static void cadastroMembros () {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -119,16 +123,20 @@ public class Sistema {
 
             switch (add) {
                 case 1:
-                    listaUsuario.add(new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members));
+                    listaMembros.add(new MobileMembers(nome, email, ID, TiposDeMembro.Mobile_Members));
+                    break;
 
                 case 2:
-                    listaUsuario.add(new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters));
+                    listaMembros.add(new HeavyLifters(nome, email, ID, TiposDeMembro.Heavy_Lifters));
+                    break;
 
                 case 3:
-                    listaUsuario.add(new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys));
+                    listaMembros.add(new ScriptGuys(nome, email, ID, TiposDeMembro.Script_Guys));
+                    break;
 
                 case 4:
-                    listaUsuario.add(new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers));
+                    listaMembros.add(new BigBrothers(nome, email, ID, TiposDeMembro.Big_Brothers));
+                    break;
             }
 
             System.out.println("Voce deseja cadastrar outro membro?\n" +
@@ -136,6 +144,32 @@ public class Sistema {
                     "2 - Nao");
             resposta = Integer.parseInt(scanner.next());
         }
-        return null;
     }
+
+    /**
+     * Método para remover um membro em relação a ordem(posicao) de cadastro
+     */
+    public static void removerMembro(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Deseja excluir um membro?\n" +
+                "1 - Sim \n" +
+                "2 - Nao");
+        int resposta = scanner.nextInt();
+
+        while (resposta == 1) {
+
+            System.out.println("Voce deseja apagar qual posição?");
+            int excluir = scanner.nextInt();
+
+            listaMembros.remove(excluir);
+
+            System.out.println("Voce deseja remover outro membro?\n" +
+                    "1 - Sim \n" +
+                    "2 - Nao");
+            resposta = Integer.parseInt(scanner.next());
+
+        }
+
+    }
+
 }
