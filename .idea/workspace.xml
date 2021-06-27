@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed8ea2f-a507-4ded-8fab-1c22a0696366" name="Default Changelist" comment="Att JavaDoc e estética">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/enumerates/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/enumerates/Horario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/enumerates/TiposDeMembro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/enumerates/TiposDeMembro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/interfaces/PostarMensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/interfaces/PostarMensagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/Membro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/models/Membro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividade02/src/s0c13ty_MAsK/controladores/Sistema.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624823491517</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Att JavaDoc e estética">
+      <created>1624824608712</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1624824608712</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

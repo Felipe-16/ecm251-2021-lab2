@@ -10,14 +10,14 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Classe onde sera executado a implementacao
+ * Classe onde será executado a implementação
  */
 public class Sistema {
     private static ArrayList<Membro> listaMembros = new ArrayList<>();
 
     /**
-     * Método que vai rodar o codigo
-     * @throws IOException
+     * Método que vai exibir o meno do sistema
+     * @throws IOException - caso o sistema não funcione
      */
     public static void run() throws IOException {
 
@@ -30,7 +30,7 @@ public class Sistema {
         System.out.println("=====================================");
 
         /**
-         * While para sempre executar o sistema ate que o usuario termine
+         * While para sempre executar o sistema até que o usuário encerre o sistema
          */
         while(iniciar) {
 
@@ -45,7 +45,7 @@ public class Sistema {
             int resp = scanner.nextInt();
 
             /**
-             * Switch case para cada execucao do menu
+             * Switch case para cada execução do menu
              */
             switch (resp){
                 case 1:
@@ -57,7 +57,7 @@ public class Sistema {
                         horarioatual = Horario.NORMAL;
                         System.out.println("Seu horário foi alterado com sucesso!");
                     }
-                    System.out.println("Seu horario é: " + horarioatual);
+                    System.out.println("Seu horário é: " + horarioatual);
                     break;
 
                 case 2:
@@ -65,7 +65,7 @@ public class Sistema {
                     break;
 
                 case 3:
-                    System.out.println("Seu horario é: " + horarioatual);
+                    System.out.println("Seu horário é: " + horarioatual);
                     break;
 
                 case 4:
@@ -90,28 +90,28 @@ public class Sistema {
                 case 7:
                     iniciar = false;
                     System.out.println("===============\n" +
-                            "0br1g4d0 por usar o sistema\n" +
-                            "Finalizando o sistema! bons codigos");
+                            "0br1g4d0 por usar o sistema.\n" +
+                            "Finalizando o sistema! Bons códigos.");
             }
         }
     }
 
-    // Sera implementado aqui o cadastro de membros, uma vez considerando que quem esta usando o sistema seja um dos Big Brothers
+    // Será implementado o cadastro de membros, uma vez considerando que quem está usando o sistema seja um dos Big Brothers
     /**
-     * Metodo que cadastra os membros com o seu papel dentro do grupo
+     * Método que cadastra os membros com o seu papel dentro do grupo
      */
     public static void cadastroMembros () throws FileNotFoundException {
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Deseja adicionar um novo membro?\n" +
-                "1 - sim \n" +
-                "2 - nao");
+                "1 - Sim \n" +
+                "2 - Não");
 
         int resposta = scanner.nextInt();
 
         /**
-         * While para executar o cadastro de membro ate que o usuario termine
+         * While para executar o cadastro de membro ate que o usuário termine de usar
          */
         while (resposta == 1) {
 
@@ -154,40 +154,38 @@ public class Sistema {
             Arquivamento arquivamento = new Arquivamento();
             arquivamento.arquivar(listaMembros);
 
-            System.out.println("Voce deseja cadastrar outro membro?\n" +
+            System.out.println("Você deseja cadastrar outro membro?\n" +
                     "1 - Sim \n" +
-                    "2 - Nao");
+                    "2 - Não");
             resposta = scanner.nextInt();
         }
     }
 
     /**
-     * Método para remover um membro em relação a ordem(posicao) de cadastro
+     * Método para remover um membro em relação a ordem (posição) de cadastro
      */
     public static void removerMembro(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Deseja excluir um membro?\n" +
                 "1 - Sim \n" +
-                "2 - Nao");
+                "2 - Não");
         int resposta = scanner.nextInt();
 
         /**
-         * While para executar a remoção de membro ate que o usuario termine
+         * While para executar a remoção de membro até que o usuário termine
          */
         while (resposta == 1) {
 
-            System.out.println("Voce deseja apagar qual posição?");
+            System.out.println("Você deseja apagar qual posição?");
             int excluir = scanner.nextInt();
 
             listaMembros.remove(excluir);
 
             System.out.println("Voce deseja remover outro membro?\n" +
                     "1 - Sim \n" +
-                    "2 - Nao");
+                    "2 - Não");
             resposta = scanner.nextInt();
 
         }
-
     }
-
 }
